@@ -18,10 +18,10 @@
 # with open("testfile1.txt","w") as f :
 #     f.write("Rishabh Bkl")
 
-with open("testfile1.txt","r") as f :
-    print(f.readline())
+# with open("testfile1.txt","r") as f :
+#     print(f.readline())
 
-f = open("testfile2.txt","x"):
+# f = open("testfile2.txt","x")
 
 
 
