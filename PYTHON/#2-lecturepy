@@ -1,0 +1,102 @@
+
+                                        #list in python
+                             #its allow the differnt data type
+                                     #its are mutable
+                                 #string are immutable
+##""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""##
+
+#indexing
+
+marks = [34,55.3,53,66,36,74]#marks[0],marks[1]
+
+print(marks)
+print(type(marks))
+
+
+student =["rishabh",45,"nagpur"]
+
+student[0]="raj"
+print(student[2])
+print(student)
+
+##""""""""""""""""""""""""""""""""""""""""""""""""""""""""""##
+
+#list slicing
+
+marks=[34,56,76,88,92]
+print(marks[:3])
+print(marks[-2:1])
+
+##""""""""""""""""""""""""""""""""""""""""""""""""""""""""""##
+
+
+#list method
+
+list=[2,3,7,5]
+print(list.append(4))
+#list.sort()
+#list.sort(reverse=True)
+#list.insert(1,6)#put the number which counting by then...
+#list.remove(2)
+list.pop(2)#counting start up to (0,1,2,3)
+
+print(list)
+
+##""""""""""""""""""""""""""""""""""""""""""""""""""""""""""##
+
+#tuples in python
+#tuple is ommutable
+
+tup = (1,2,3,4,5)
+#tup(1,)#apply ',' always in python 
+#tup(0)=23 #not allow in python
+print(type(tup))
+print(tup[0])
+print(tup)
+
+#tuple slicing
+print(tup[1:])
+print(tup)
+
+##""""""""""""""""""""""""""""""""""""""""""""""""""""""""""##
+
+##pratice program
+#001
+
+movie = []
+mov1 = input("enter 1st movie: ")
+print(movie.append(mov1))
+
+mov2 = input("enter 2nd movie: ")
+print(movie.append(mov2))
+
+mov3= input("enter 3rd movie: ")
+print(movie.append(mov3))
+
+print(movie)
+
+
+#002
+list1 = [1,2,3,2,1]
+
+copy_list=list1.copy()
+copy_list.reverse()
+
+if(copy_list == list1):
+    print("pelindron")
+else:
+    print("not palindrone")
+print("end code")
+
+
+#003
+list=["C","D","A","A","B","B","A"]
+print(list.count("A"))
+list.sort()
+print(list)
+
+# list1=[]
+# list1.append(1)
+# print(list1)
+# list1.extend((12,3,2,4))
+# print(list1)
